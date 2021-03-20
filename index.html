@@ -33,6 +33,9 @@ P to the U double F S YES! -->
                 text-align: center;
                 font-family: Quicksand;
             }
+            h5 {
+                font-family: Quicksand;
+            }
           img  {
             display: block;
             margin-left: auto;
@@ -49,18 +52,48 @@ P to the U double F S YES! -->
                 text-align: center;
                 font-family: Quicksand;
             }
-            @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
                  .scrolling-text {
-                color: rgb(0, 0, 0);
                 text-align: center;
-                font-family: 'Open Sans', sans-serif;
+                font-family: 'Quicksand';
+            }
+            body {
+            padding: 25px;
+            background-color: white;
+            color: black;
+            
+            font-size: 25px;
+            }
+
+            .dark-mode {
+            background-color: black;
+            color: white;
+            }
+            .fast-scrolling-text {
+                text-align: center;
+                font-family: 'Quicksand';
+            }
+            .pain {
+                font-family: 'Quicksand';
             }
         </style>
     </head>
     <body>
+        <div="pain">
+            <h5><b>WHY IS IT SO HARD TO CENTER A FRIGGIN BUTTON</b></h5>
+        </div>
 
+        <div='dark-mode-button'>
+        <button onclick="myFunction()">Toggle dark mode</button>
+    </div>
+
+        <script>function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    }     
+    </script>
+        
         <div class="scrolling-text">
-        <marquee behavior="scroll" direction="left">i could prob use this for like notifications or something lol</marquee>
+        <marquee behavior="scroll" direction="left">i could probably use this for like notifications or something lol</marquee>
         </div>
         <div class="fast-scrolling-text">
             <marquee behavior="scroll" direction="left" scrollamount="100">NYOOOOOOOOOOOOOOOOOOOM</marquee>
