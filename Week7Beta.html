@@ -10,6 +10,22 @@
   <link rel="stylesheet" href="https://proicons.netlify.app/css/icons.min.css">
 <style>
 
+
+.fullScreen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.normal {
+  text-align:center;
+  		width:100%;
+      width: 1000px;
+      height: 540px;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
   
 .iframe-container {
@@ -23,7 +39,7 @@
   text-align: center;
 }
 
-form {
+button {
     margin-bottom: 1%;
 }
 
@@ -84,13 +100,25 @@ body {
 </div>
 
 <h1>By the way...</h1>
-<h2>Week 7 story mode does <span style="color: red;">not</span> work</h2>
+<h2>Week 7 story mode does <span style="color: red;">not</span> work but freeplay <span style="color: lime;">does!</span></h2>
 
 
 <br>
 
-<center><form action="https://uploads.ungrounded.net/alternate/1528000/1528775_alternate_113347_r87.zip/?NewgroundsAPI_PublisherID=1&amp;NewgroundsAPI_SandboxID=607cade7afa42&amp;NewgroundsAPI_SessionID=&amp;NewgroundsAPI_Username=%26It%3Bdeleted%26gt%3B&amp;NewgroundsAPI_UserID=0&amp;ng_username=%26It%3Bdeleted%36gt">
-    <input type="submit" value="Fullscreen" />
-</form></center>
+<center><button onclick="Fullscreen()">Fullscreen</button></center>
+
+<script>function Fullscreen() {
+  document.getElementsByTagName("iframe")[0].className = "fullScreen";
+}
+</script>
+
+<script>
+  document.addEventListener("keydown", event => {
+    switch (event.key) {
+        case "Escape":
+        document.getElementsByTagName("iframe")[0].className = "normal";
+            }
+        })
+  </script>
 
 </html>
