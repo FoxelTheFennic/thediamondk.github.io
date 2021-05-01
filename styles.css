@@ -1,0 +1,144 @@
+/* INDEX */
+    
+
+    @import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+    /* padding */
+
+
+
+p, h1, h2, h3, h4, h5, h6, div{
+  padding: 1%;
+  color: #00fff2;
+}
+
+/* makes link text same as normal text */
+
+a {
+    color: #00fff2;
+}
+
+/* NAVBAR */
+.page-header {
+  padding: 15px;
+  padding-top: 20px;
+  background-color:rgb(0, 57, 59);
+  margin: 0px;
+}
+
+.navbar {
+  text-align: right;
+}
+
+.mobile-bars {
+display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.page-header {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+overflow: hidden;
+}
+
+
+.page-header nav {
+float: right;
+}
+
+.page-header ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+.page-header li {
+float: left;
+list-style-type: none;
+}
+
+.page-header li a {
+display: block;
+color: #00fff2;
+text-align: center;
+padding: 10px 16px;
+text-decoration: none;
+}
+
+.page-header li a:hover {
+background-color: rgb(0, 71, 73);
+border-radius: 12px;
+}
+
+.sidebar {
+  background-color: #162929;
+  padding: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  justify-content: right;
+  float: right;
+  width: 20%;
+}
+
+.item {
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+}
+
+.item-social a {
+  font-size: 20px
+}
+
+/* GMOD */
+
+video{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.topnav, .topnav a{
+padding: 1%;
+}
+
+body {
+margin: 0;
+font-family: Quicksand;
+}
+
+.topnav {
+overflow: hidden;
+background-color: rgb(0, 57, 59);
+}
+
+.topnav a {
+float: left;
+color: #00fff2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: rgb(0, 71, 73);
+color: black;
+}
+
+.topnav a.active {
+background-color: #00fff2;
+color: rgb(0, 71, 73);
+}
+
+/* car drip */
+.cardrip {
+  display: block;
+  text-align: center;
+}
