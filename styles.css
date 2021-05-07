@@ -7,7 +7,7 @@
 
 
 
-p, h1, h2, h3, h4, h5, h6, div, .tdkdiscordserver{
+p, h1, h2, h3, h4, h5, h6, div{
   padding: 1%;
   color: #00fff2;
 }
@@ -140,20 +140,5 @@ color: rgb(0, 71, 73);
 /* car drip */
 .cardrip {
   display: block;
-}
-
-/* discord */
-.discordparent {
-  display:flex;
   text-align: center;
-}
-
-.join {
-  flex:1;
-  margin: 185px;
-}
-
-.pikmindiscordserver {
-  flex:2;
-  text-align: right;
 }
