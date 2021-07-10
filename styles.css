@@ -1,6 +1,7 @@
 /* All */
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@font-face { font-family: Wii; src: url('assets/fonts/Wii.ttf'); } 
 
 a, body {
   text-decoration:none;
@@ -45,3 +46,26 @@ iframe {
   display: block;
   margin: 0 auto;
 }
+
+/* goodies */
+.wiititle {
+  font-family: "Wii";
+  font-size: 50px;
+  color: #34BEED;
+  font-weight: bold;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  position: relative;
+  text-align: center;
+  font-size: large;
+  color: #000000;
+}
+

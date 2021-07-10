@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <title>TDK | Goodies</title>
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <head>
+      <html prefix="og: https://ogp.me/ns#">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://proicons.netlify.app/css/icons.min.css">
+      <meta property="og:title" content="Goodies" />
+      <style>
+        body {
+          background-image: url("assets/images/WSC.png");
+        }
+        a {
+          font-family: "Wii";
+          color: #8C8C8C;
+        }
+        a:hover {
+          color: rgb(56, 56, 56);
+        }
+      </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DGG831PPRZ"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-DGG831PPRZ');
+        </script>
+      </head>
+<body>
+  <div class="wiititle">Goodies</div>
+  <div class="dot" id="line01">･･･････････････････････････････････････････････････････････････････････････</div>
+  <audio src="/assets/sounds/WSC.mp3" autoplay>
+    <p>If you are reading this, it is because your browser does not support the audio element.</p>
+    </audio>
+  <script>
+    var sites = [
+        'https://www.wicy.cool',
+        'https://www.wiilink24.com',
+        'https://bananaplays.com/',
+        'https://oscie.net'
+    ];
+
+    function randomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+    }
+</script>
+<div class="button">
+  <img src="/assets/images/wii button.png">
+  <div class="centered"><a href="#" onclick="randomSite();" class="button">Random Site</a></div>
+</div>
+<div class="dot" id="line01">･･･････････････････････････････････････････････････････････････････････････</div>
+</body>
