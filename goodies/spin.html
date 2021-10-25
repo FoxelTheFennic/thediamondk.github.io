@@ -44,9 +44,8 @@ a, body {
   <big>You have sat through <span id="spin">0 spins</span>!</big>
 </center>
 <br>
-<br>
 <center>
-  <big>it has been <span id="millisecond">0 milliseconds</span> (<span id="second">0 seconds</span>) since you've opened this page!</big>
+  <big>it has been <span id="something">0 somethings</span> (<span id="second">0 seconds</span>) since you've opened this page!</big>
 </center>
 </body>
 
@@ -63,10 +62,10 @@ $(window).load(function (){
 
 <script>
   $(window).load(function (){
-    var milliseconds = 0;
+    var somethings = 0;
     setInterval(function () {
-      milliseconds = milliseconds + 1;
-      $("#millisecond").text(milliseconds + " millisecond" + (milliseconds != 1 ? "s" : ""));
+      somethings = somethings + 1;
+      $("#something").text(somethings + "  something" + (somethings != 1 ? "s" : ""));
     }, 1);
   });
   </script>
