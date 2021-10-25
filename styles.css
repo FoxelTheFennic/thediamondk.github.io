@@ -92,6 +92,10 @@ body {
   margin-top: 1%;
 }
 
+.credit {
+  margin-left: -35px;
+}
+
 /* bot */
 iframe {
   display: block;
