@@ -43,8 +43,13 @@ a, body {
 <center>
   <big>You have sat through <span id="spin">0 spins</span>!</big>
 </center>
+<br>
+<br>
+<center>
+  <big>it has been <span id="millisecond">0 milliseconds</span> (<span id="second">0 seconds</span>) since you've opened this page!</big>
+</center>
 </body>
-</html>
+
 
 <script>
 $(window).load(function (){
@@ -55,6 +60,27 @@ $(window).load(function (){
   }, 1400);
 });
 </script>
+
+<script>
+  $(window).load(function (){
+    var milliseconds = 0;
+    setInterval(function () {
+      milliseconds = milliseconds + 1;
+      $("#millisecond").text(milliseconds + " millisecond" + (milliseconds != 1 ? "s" : ""));
+    }, 1);
+  });
+  </script>
+
+<script>
+  $(window).load(function (){
+    var seconds = 0;
+    setInterval(function () {
+      seconds = seconds + 1;
+      $("#second").text(seconds + " second" + (seconds != 1 ? "s" : ""));
+    }, 1000);
+  });
+  </script>
+
 
   <body style="background-color: rgb(146, 231, 146);"></body>
 </html>
