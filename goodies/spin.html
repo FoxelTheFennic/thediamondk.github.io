@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html prefix="og: https://ogp.me/ns#">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SPIN</title>
+<link rel="shortcut icon" type="image/png" href="../assets/images/spin/spin.gif">
+<meta property="og:title" content="SPIN" />
+<head>
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <meta name="theme-color" content="#2e1c63">
+  <link rel="stylesheet" href="../styles.css">
+  <meta property="og:image" content="https://www.thediamondk.com/assets/images/spin/spin.gif" />
+  <link rel="stylesheet" href="https://proicons.netlify.app/css/icons.min.css">
+</head>
+<style>
+a, body {
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+}
+</style>
+<body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DGG831PPRZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DGG831PPRZ');
+</script>
+
+
+
+<audio src="/assets/sounds/Slider.mp3" autoplay loop>
+  <p>If you are reading this, it is because your browser does not support the audio element.</p>
+  </audio>
+
+<img src="../assets/images/spin/spin.gif">
+
+<br>
+<br>
+<center>
+  <big>You have sat through <span id="spin">0 spins</span>!</big>
+</center>
+</body>
+</html>
+
+<script>
+$(window).load(function (){
+  var spins = 0;
+  setInterval(function () {
+    spins = spins + 1;
+    $("#spin").text(spins + " spin" + (spins != 1 ? "s" : ""));
+  }, 1400);
+});
+</script>
+
+  <body style="background-color: rgb(146, 231, 146);"></body>
+</html>
