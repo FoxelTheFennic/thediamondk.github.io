@@ -3,11 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:display=swap');
 @font-face { font-family: Wii; src: url('assets/fonts/Wii.ttf'); } 
 
-
-
 a, body {
   text-decoration:none;
-  color:#000000;
+  color: #ffffff;
   font-family: Comfortaa;
   text-align: center;
   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
@@ -62,11 +60,11 @@ a, body {
 }
 
 a:hover {
-  color: rgb(68, 68, 68);
+  color: #d4d4d4;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #222222;
 }
 
 
