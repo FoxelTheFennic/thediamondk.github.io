@@ -38,5 +38,5 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-window.location.href = "https://video.twimg.com/ext_tw_video/1377264951404982272/pu/vid/482x360/x58uwzFoYTr1N6Dl.mp4?tag=12";
+window.location.href = "easter egg/shopping.html";
 }
