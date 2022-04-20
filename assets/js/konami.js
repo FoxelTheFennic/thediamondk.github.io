@@ -38,5 +38,5 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-window.location.href = "easter egg/shopping.html";
+window.location.href = "goodies/shopping.html";
 }
